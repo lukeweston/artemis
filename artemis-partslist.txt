@@ -1,0 +1,66 @@
+
+Resistors: (All resistors 0805 SMD package)
+
+R1	4.7 k
+R2	100 k
+R3	100 k
+R4	750 R
+R5	10 k
+R6	10 k
+R7	100 k
+R8	100 k
+R9	56 R
+R10	100 k
+R11	56 R
+R12	100 k
+R13	150 k
+R14	91 k
+
+
+Capacitors:
+
+C1	10 uF 16 V tantalum, through-hole					Jaycar RZ-6648 
+C2	10 uF 16 V tantalum, through-hole					Jaycar RZ-6648
+C3	100 nF, 0805 SMD package
+C4	100 nF, 0805 SMD package
+C5	100 nF, 0805 SMD package
+C6	100 nF, 0805 SMD package
+C7	100 nF, 0805 SMD package
+C8	1 uF, 25 V tantalum, through-hole					Jaycar RZ-6627
+C9	10 nF, 0805 SMD package
+C10	330 nF, 0805 SMD package
+C11	100 nF, 0805 SMD package
+C12	100 nF, 0805 SMD package
+C13	100 nF, 0805 SMD package
+
+
+ICs:
+
+	I've specified some examples of parts suppliers that I know have the relevant items, though they may not be the only choices, or the best choices.
+
+IC1	Linear LM1117-3.3 LDO 3.3 V voltage regulator, SOT-223 package		Digikey LM1117MP-3.3CT-ND
+IC2	Dallas DS18B20 1-Wire temperature sensor, TO-92 package			Sparkfun SEN-00245
+IC3	Linear LTC1298 analog-to-digital converter, DIP-8 package		Futurelec
+IC4	Analog Devices ADXL330 3-axis accelerometer, LFCSP-16 package		Sparkfun COM-00730
+IC5	Freescale MPX4115A barometric pressure sensor, 867-H package		Digikey
+IC6	Linear LTC1298 analog-to-digital converter, DIP-8 package		Futurelec
+IC7	Dallas DS1307 real-time clock, SOIC-8 package				Futurelec
+IC8	Atmel AT45DB161B 16 MBit DataFlash memory, SOIC-8 package		Sparkfun COM-00301
+
+IC9	Arduino Duemilanove board
+IC10	XBee module (any, really)
+GPS	LS20031 GPS module							Sparkfun GPS-08975
+
+B1	12 mm coin cell holder, SMD						Sparkfun PRT-07948
+	plus CR1225 3 V lithium coin cell					Sparkfun PRT-00337
+Q1	32.768 kHz quartz oscillator crystal, TC-38 through-hole package	Sparkfun COM-00540
+S1	Momentary tactile pushbutton switch, through-hole			Jaycar SP-0600
+LDR1	Standard cadmium sulfide photoresistor, through-hole 0.1"		Jaycar RD-3480
+LDR2	Standard cadmium sulfide photoresistor, through-hole 0.1"		Jaycar RD-3480
+LED1	Standard LED; 3 mm through-hole						Jaycar ZD-0120
+LED2	Standard LED; 3 mm through-hole						Jaycar ZD-0120
+
+2 x 10-pin 2 mm header sockets for XBee module					Sparkfun PRT-08272
+Break-away 0.1" machined pin socket strip for mounting LTC1298 ICs		Jaycar PI-6470
+28-pin break-away 0.1" pin header strip for mounting shield to Arduino		Jaycar HM-3211
+
