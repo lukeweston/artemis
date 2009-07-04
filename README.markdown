@@ -5,10 +5,8 @@ ARTEMIS: Arduino Rocket Telemetry Module and Instrumentation System
 * more documentation to come later *
 
 	Hardware Arduino pin assignments:
-	---------------------------------
 	
 	Function				Mega pin		Duemilanove pin
-	--------				--------		---------------	
 	
 	UART Rx from XBee:			Digital 0 (RX0)		(0)
 	UART Tx to XBee:			Digital 1 (TX0)		(1)
