@@ -4,6 +4,7 @@ ARTEMIS: Arduino Rocket Telemetry Module and Instrumentation System
 
 * more documentation to come later *
 
+`
 Hardware Arduino pin assignments:
 ---------------------------------
 
@@ -33,6 +34,7 @@ MCP3208 ADC (3.3 V) SPI chip select:	48
 SPI Master-in-slave-out (MISO):		50
 SPI Master-out-slave-in (MOSI):		51
 SPI clock (SCK):			52
+`
 
 (Note that pins 20, 21, 50 51 and 52 are hard-wired to the microcontroller's
 internal hardware for those interface protocols, and cannot be changed.)
