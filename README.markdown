@@ -1,7 +1,10 @@
 ARTEMIS: Arduino Rocket Telemetry Module and Instrumentation System
-------------------------------------------------------------------
+===================================================================
 
 *more documentation to come later*
+
+Hardware
+--------
 
 (I'm having some trouble learning how to make the markdown code block work properly...
 ...please bear with me here.)
@@ -46,4 +49,25 @@ part of the PCB designer, since pin 7 is the one closest to that part of the lay
 *The accelerometer self-test should be used with caution* since it is plugged straight into the microcontroller
 and the accelerometer is a 3.3V device. Perhaps PWMing it would be appropriate - I should have added a capacitor
 on this pin on the board to smooth off the PWM.
+
+
+Software
+--------
+
+Clone this into your Arduino projects directory (~/Documents/Arduino on the Mac), and you should be able to open it in your Arduino IDE, build it, and run it.
+
+The following bits are working:
+
+- ADCs
+- Accelerometer
+- MAP sensor
+- Real-time clock
+- Temperature
+
+The following bits still need to be done:
+
+- Flash storage
+- GPS
+
+From there we have to work out formats for data storage and transmission.
 
